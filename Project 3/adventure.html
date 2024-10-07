@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="style1.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About Us</li>
+            <li><a href="#"></a>Contact Us</li>
+        </ul>
+        <img src="pic/menu-regular-24.png" alt="" class="menu-btn">
+    </nav>
+    
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="pic/rowing1.jpg" alt="">
+                <h4>WATER SPORTS</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perspiciatis sed iusto, tempora
+                    voluptates esse corrupti. Magnam delectus porro velit.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="pic/climbing1.jpg" alt="">
+                <h4>TREKING</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perspiciatis sed iusto, tempora
+                    voluptates esse corrupti. Magnam delectus porro velit.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, minus amet! Nulla eligendi, officia
+                provident consectetur qui assumenda fugit placeat, possimus, autem unde quas id.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+    <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING EVENTS AND TOURS</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, inventore est suscipit eius ipsam
+                    laboriosam, voluptatibus esse blanditiis fugiat aliquam dolores recusandae. Vero, voluptates error.
+                    Aut deleniti ducimus iusto saepe!</p>
+                    <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="pic/tours1.jpg" alt="">
+                    <img src="pic/tours2.jpg" alt="">
+                    <img src="pic/tours5.jpg" alt="">
+                    <img src="pic/tours6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.besttravel.com All rights reserved!
+        </div>
+    </footer>
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
